@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanshu Kumar Jha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #f4f7fa, #eef1f5);
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 4rem 1rem 3rem;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-weight: 300;
+      font-size: 1.1rem;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 1rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #ffffff;
+      color: #764ba2;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ddd;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 1.8rem;
+      border-left: 5px solid #764ba2;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+    .project, .education {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .skill {
+      display: inline-block;
+      background: #ffffff;
+      color: #444;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    a {
+      color: #764ba2;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.85rem;
+      color: #777;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Priyanshu Kumar Jha</h1>
+    <p>Software Engineer | Cloud Developer | Data Scientist</p>
+    <img src="priyanshu.jpeg" alt="Priyanshu's Photo" class="profile-pic">
+    <br>
+    <a class="button" href="resume.pdf" download>Download Resume</a>
+  </header>
+
+  <section>
+  <h2>About Me</h2>
+  <p>
+    I'm a passionate Software Engineer and Cloud Developer with over 4 years of experience designing and deploying modern applications in both startup and freelance environments. I specialize in building scalable, secure, and efficient cloud-native solutions using technologies like AWS, Terraform, Node.js, Python, and React.js. I’ve led projects ranging from tax automation platforms to multi-tenant cloud applications, serving industries such as fintech, e-commerce, consulting, and real estate.
+  </p>
+  <p>
+    With a strong academic foundation in Data Science and Information Technology, I bring both depth and versatility to my work. My Master's dissertation explored NLP-based recommendation systems for cloud services, while my Bachelor's included smart traffic systems using YOLO object detection. In addition to my full-time roles, I’ve worked with clients globally through Upwork, delivering fullstack and DevOps projects across diverse domains. My goal is to create meaningful tech that drives value and scales with business needs.
+  </p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="project">
+    <h3 style="color: #4a00e0;">Software Engineer — Taxd Ltd, London (Dec 2022 – Present)</h3>
+    <p>
+      Leading the development of a comprehensive corporate tax filing product tailored for startups, consulting firms, buy-to-let landlords, e-commerce businesses, solopreneurs, contractors, and dormant companies. This platform automates the generation of key financial documents including Trial Balance, Balance Sheet, Profit & Loss, and iXBRL-compliant reports — with the Corporate Tax Return (CT600) filed directly with HMRC.
+    </p>
+    <p>
+      Featured on the <a href="https://taxd.co.uk/about-us">Taxd Ltd About Us</a> page as part of the core engineering team.
+    </p>
+    <ul style="line-height: 1.7; padding-left: 1.25rem; color: #333;">
+      <li><strong>Integrated Xero API</strong> for real-time transaction syncing and smart categorization of financial entries.</li>
+      <li><strong>Cloud Infrastructure:</strong> Designed and deployed a highly available, secure cloud infrastructure on AWS, rated 90% by AWS Security Hub.</li>
+      <li><strong>Infrastructure as Code:</strong> Used Terraform to automate and manage infrastructure deployments consistently.</li>
+      <li><strong>Microservices Architecture:</strong> Developed in Node.js and Next.js, enhancing modularity and reducing ops overhead by 50%.</li>
+      <li><strong>Docker & AWS Deployment:</strong> Deployed microservices in Docker containers on AWS, achieving 100% uptime with auto-patching and secure updates.</li>
+      <li><strong>DevOps:</strong> Integrated AWS CodePipeline and CodeBuild for CI/CD, reducing manual deployment time by 90%.</li>
+      <li><strong>Database Migration:</strong> Migrated 238GB of data from MongoDB Atlas to AWS DocumentDB with just 1 hour of downtime, reducing costs by 20%.</li>
+      <li><strong>Security:</strong> Collaborated with a security firm to protect the application from DDoS, SQL injection, and other attacks, achieving 99.99% uptime.</li>
+      <li><strong>Team Collaboration:</strong> Worked cross-functionally and mentored teammates on HMRC compliance and tech integrations.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #4a00e0;">Cloud Engineer — Blazeclan Technologies Pvt Ltd (Nov 2020 – May 2022)</h3>
+    <p>
+      Contributed to the development of the Expect-Me platform, delivering cloud-native applications using AWS services and modern development stacks.
+    </p>
+    <ul style="line-height: 1.7; padding-left: 1.25rem; color: #333;">
+      <li><strong>Cloud Services:</strong> Built scalable services using AWS EC2, S3, RDS, and Lambda.</li>
+      <li><strong>Client Collaboration:</strong> Translated client requirements into robust cloud solutions.</li>
+      <li><strong>Full-Stack Development:</strong> Engineered frontend and backend using Node.js and React.js.</li>
+      <li><strong>Microservices:</strong> Deployed Docker-based microservices orchestrated with Kubernetes.</li>
+      <li><strong>Databases:</strong> Managed MySQL and AWS ElasticCache for Redis.</li>
+      <li><strong>Data Integration:</strong> Used AWS Amplify and GraphQL for real-time data handling.</li>
+    </ul>
+  </div>
+</section>
+</section>
+
+<section>
+  <h2>Freelance Experience</h2>
+  <div class="project">
+    <h3 style="color: #4a00e0;"><a href="https://www.upwork.com/freelancers/~0118f27d60b1026b49" target="_blank">Freelance Developer @ Upwork</a></h3>
+    <p>
+      Worked with a range of international clients on projects involving software development, infrastructure provisioning, and serverless architecture. Provided full-stack and cloud expertise tailored to business needs, with a focus on communication, efficiency, and scalable delivery.
+    </p>
+    <ul style="line-height: 1.7; padding-left: 1.25rem; color: #333;">
+      <li><strong>Title:</strong> Expert in AWS, Terraform, JavaScript, Python, Node.js, and React.js</li>
+      <li><strong>Industries Served:</strong> Software companies, startups, and cloud-first businesses</li>
+      <li><strong>Focus Areas:</strong> Serverless technologies, AWS & Azure deployments, and MERN stack development</li>
+      <li><strong>Description:</strong> Worked as a fullstack developer and AWS cloud solution architect, combining DevOps methodologies with agile development practices. Successfully delivered Python and MERN stack projects, offering end-to-end tech solutions.</li>
+      <li><strong>Tech Stack:</strong> Python, Node.js, React.js, AWS, Azure, Digital Ocean, Databases, Terraform</li>
+    </ul>
+  </div>
+<section>
+  <h2>Skills</h2>
+  <div class="project">
+    <div class="skill">Python</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Typescript</div>
+    <div class="skill">AWS</div>
+    <div class="skill">Azure</div>
+    <div class="skill">Docker</div>
+    <div class="skill">Kubernetes</div>
+    <div class="skill">Terraform</div>
+    <div class="skill">React.js</div>
+    <div class="skill">Next.js</div>
+    <div class="skill">Node.js</div>
+    <div class="skill">Flask</div>
+    <div class="skill">MongoDB</div>
+    <div class="skill">PostgreSQL</div>
+    <div class="skill">DynamoDB</div>
+    <div class="skill">Machine Learning</div>
+  </div>
+</section>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="education">
+      <strong>M.Sc. Data Science</strong><br />
+      The University of Birmingham, UK (Sep 2022 – Sep 2023)<br />
+      Gained advanced knowledge and practical skills in the core areas of data science through hands-on coursework and real-world projects. Learned to work with structured and unstructured data, perform deep analytical modeling, and extract meaningful insights for business and scientific decision-making.<br /><br />
+      <strong>Coursework Highlights:</strong> Data Mining & Analysis, Algorithms in Data Science, Data Visualization, Programming in Python, Data Manipulation, Database Systems (SQL and NoSQL), Data Warehousing, and Current Trends in Data Science.<br /><br />
+      <strong>Academic Project:</strong> Investigated the "Effects of Fuel Price Index on Other Indexes in Inflation Prediction," employing regression analysis to understand economic ripple effects.<br />
+      <strong>Dissertation:</strong> "A Natural Language Processing Approach to Cloud Services Recommendation for Software Requirements" — Developed a recommendation system using NLP techniques to match software requirements with optimal cloud services.
+    </div>
+    <div class="education">
+      <strong>B.E. in Information Technology</strong><br />
+      International Institute of Information Technology, Pune (Aug 2016 – Jun 2020)<br />
+      Built a strong foundation in core computing principles and software engineering practices. Studied a broad spectrum of subjects ranging from algorithmic thinking to secure network architecture and full-stack development. Developed practical skills through labs, projects, and collaborative assignments.<br /><br />
+      <strong>Coursework Highlights:</strong> Object-Oriented Programming, Database Management, Web Development, Network Security, Operating Systems, Data Structures and Algorithms, Cloud Computing.<br /><br />
+      <strong>Academic Project:</strong> Developed a smart traffic light management system using the YOLO (You Only Look Once) object detection model to optimize traffic flow based on real-time vehicle detection.
+    </div>
+  </section>
+
+  <section>
+  <h2>Connect with Me</h2>
+  <p style="line-height: 2; font-size: 1.1rem;">
+    <a href="https://github.com/priyanshujha98">GitHub</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/priyanshu-jha-20aa8b146/">LinkedIn</a> &nbsp;|&nbsp;
+    <a href="mailto:priyanshujha98@gmail.com">Email</a>
+  </p>
+</section>
+
+<footer>
+    &copy; 2025 Priyanshu Kumar Jha
+  </footer>
+</body>
+</html>
+
